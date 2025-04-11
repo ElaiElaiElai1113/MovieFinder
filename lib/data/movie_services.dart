@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class MovieService {
-  final String _apiKey = 'INSERT API HERE';
+  final String _apiKey = 'dd2f61e3358da7dad370d167cb47c841';
 
   Future<List<Map<String, dynamic>>> fetchMoviesByGenre(int genreId) async {
     final url =

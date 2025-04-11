@@ -10,13 +10,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final MovieService _movieService = MovieService();
-  final List<int> genreIds = [
-    27,
-    35,
-    18,
-    878,
-    28,
-  ]; // Horror, Comedy, Drama, Sci-Fi, Action
+  final List<int> genreIds = [27, 35, 18, 878, 28];
   Map<int, List<Map<String, dynamic>>> genreMovies = {};
   Map<int, String> genreMap = {};
 
